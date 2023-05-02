@@ -15,7 +15,7 @@ const Login = () => {
     }, [loginStatus])
     return (
         <div>
-            {showGreeting && <LoginGreeting setshowGreeting={setshowGreeting}/>}
+            {showGreeting && <LoginGreeting setshowGreeting={setshowGreeting} />}
             <div className={styles.loginMainContainer}>
 
                 <div className={styles.loginContainer}>
@@ -37,7 +37,7 @@ const Login = () => {
                         <Button disabled={loginStatus && true} onClick={() => setloginStatus(true)} variant="danger">{loginStatus ? <Spinner animation="border" variant="light" /> : 'ورود'}</Button>
                     </Row>
                     <Row className="mt-2">
-                        <p className={styles.logoTermOfServiceText}>ورود شما به معنای پذیرش شرایط دیجی‌کالا و قوانین حریم‌ خصوصی است</p>
+                        <p className={styles.logoTermOfServiceText}>ورود شما به معنای پذیرش شرایط آنلاین شاپ و قوانین حریم‌ خصوصی است</p>
                     </Row>
                 </div>
             </div>
