@@ -1,0 +1,245 @@
+/* @font-face {
+    font-family: 'Vazir';
+    src: url('font/vazir-font-v30.1.0/Farsi-Digits/Vazir-Regular-FD.eot') format('eot');
+    src: url('font/vazir-font-v30.1.0/Farsi-Digits/Vazir-Regular-FD.ttf') format('ttf');
+    src: url('FONT/vazir-font-v30.1.0/Farsi-Digits/Vazir-Regular-FD.woff') format('woff');
+} */
+
+:root {
+    --mainLight: rgb(255, 255, 255);
+    --mainRed: #db2727;
+    --mainlightGray: #eaeaea;
+    --mainXlightGray: #f0f0f0;
+    --mainDarkGray: #656565;
+    --mainFooterGray: #292a33;
+}
+
+body {
+    font-family: Vazir;
+}
+
+.topHeaderContainer {
+    margin: 10px 0px;
+    background-color: var(--mainLight);
+}
+
+.topHeaderContainer i {
+    color: var(--mainDarkGray);
+}
+
+.logo img {
+    width: 100%;
+}
+
+.loginRegister {
+    display: flex;
+    justify-content: flex-end;
+
+}
+
+.searchInput {
+    background-color: var(--mainlightGray);
+    border: none;
+    border-radius: 10px;
+    padding: 0px 20px;
+
+}
+
+.topMenuBar {
+    background-color: var(--mainLight);
+}
+
+.menuBarItems {
+    display: flex;
+    justify-content: flex-start;
+    font-size: small;
+}
+
+.menuBarItems li {
+    list-style: none;
+    margin-left: 20px;
+}
+
+.menuBarItems a {
+    text-decoration: none;
+    color: black;
+}
+
+.servicesItem img {
+    height: 50px;
+    width: 50px;
+}
+
+.servicesItem {
+    text-align: center;
+    padding: 30px;
+}
+
+.servicesItem h6 {
+    font-size: x-small;
+}
+
+.moreServices {
+    display: flex;
+    justify-content: center;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    background-color: var(--mainlightGray);
+    color: var(--mainDarktGray);
+}
+
+.salesSwipper {
+    height: 200px;
+    border-radius: 20px;
+    background-color: var(--mainRed);
+}
+
+.superMarketOffer {
+    margin: 10px 60px;
+    border-radius: 20px;
+    padding: 30px;
+    background-color: var(--mainlightGray);
+}
+
+.superMarketOfferItem {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.superMarketOfferTxt {
+    color: #07a845;
+}
+
+.superMarketOfferPill {
+
+    font-size: small;
+    background-color: #07a845;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 20px;
+}
+
+.seperMarketOfferRoundedImg {
+    width: 10%;
+    border-radius: 50%;
+}
+
+/* .offerBanner {
+    width: 90%;
+} */
+.footerItem {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.offerBannerItem {
+    display: flex;
+    justify-content: center;
+}
+
+.offerBannerItem img {
+    width: 90%;
+    border-radius: 20px;
+    margin-bottom: 10px;
+}
+
+.footerBrandItem {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 3px;
+}
+
+.categoryWithIconItem img {
+    width: 70%;
+
+}
+
+.categoryWithIconItem {
+    margin-bottom: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.offerPoster {
+    display: flex;
+    justify-content: center;
+}
+
+.offerPoster img {
+    width: 90%;
+    margin-bottom: 10px;
+    border-radius: 20px;
+}
+
+.downloadFooterContainer {
+    background-color: var(--mainFooterGray);
+    border-radius: 20px;
+    margin-top: 5px;
+    padding: 8px;
+}
+
+.footerLogo {
+    width: 10%;
+}
+
+.footerDownloadIcon {
+    width: 20%;
+}
+
+.loginMainContainer {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.loginContainer {
+    border: 1px solid var(--mainlightGray);
+    border-radius: 10px;
+    padding: 30px 50px;
+}
+
+.loginContainer img {
+    width: 40%;
+}
+
+.logoTermOfServiceText {
+    font-size: 10px;
+}
+
+.myItemBreadcrumb {
+    font-size: small;
+}
+
+.productImg img {
+    width: 90%;
+}
+
+.productTextCaptions {
+    margin-top: 2px;
+    border: 1px solid var(--mainlightGray);
+    border-radius: 10px;
+    padding: 10px;
+    margin-top: 1px;
+}
+
+.productPriceContainer {
+    background-color: var(--mainXlightGray);
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.xSmall {
+    font-size: 12px;
+}
+
+.purpuleCaption {
+    font-size: x-small;
+    color: #8d0fa6;
+}
