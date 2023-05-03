@@ -89,11 +89,6 @@ body {
     color: var(--mainDarktGray);
 }
 
-.salesSwipper {
-    height: 200px;
-    border-radius: 20px;
-    background-color: var(--mainRed);
-}
 
 .superMarketOffer {
     margin: 10px 60px;
@@ -242,4 +237,25 @@ body {
 .purpuleCaption {
     font-size: x-small;
     color: #8d0fa6;
+}
+
+.salesSwipper {
+    height: auto;
+    border-radius: 20px;
+    background-color: var(--mainRed);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px;
+}
+
+.swiper {
+    width: 100%;
+    height: 80%;
+
+}
+
+.swiperSlide {
+    text-align: center;
+    background: #fff;
 }

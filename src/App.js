@@ -1,12 +1,12 @@
 import React from 'react';
 import 'bootstrap/dist/css/bootstrap.rtl.min.css';
-import Login from './components/Login/Login'
+import SalesSwipper from './components/Index/Main/SalesSwipper';
 
 const App = () => {
 
   return (
     <div>
-      <Login />
+      <SalesSwipper />
     </div>
   );
 };
