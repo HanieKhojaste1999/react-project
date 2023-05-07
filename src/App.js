@@ -1,12 +1,12 @@
 import React from 'react';
 import 'bootstrap/dist/css/bootstrap.rtl.min.css';
-import SalesSwipper from './components/Index/Main/SalesSwipper';
-
+import Header from './components/Index/Header/Header'
+import CartModule from './components/Index/Header/CartModule';
 const App = () => {
 
   return (
     <div>
-      <SalesSwipper />
+      <CartModule />
     </div>
   );
 };
