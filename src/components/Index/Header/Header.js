@@ -32,42 +32,8 @@ const Header = () => {
                 </Row >
             </Container >
 
-            {/* <!-- Top Header -->
-                <!-- Top Menu --> */}
-            < Container fluid >
-                <Row className={styles.topMenuBar}>
-                    <nav className={styles.menuBar}>
-                        <ul className={styles.menuBarItems}>
-                            <li>
-                                <a href="">دسته بندی کالاها</a>
-                            </li>
-                            <li>
-                                <a href="">سوپرمارکت</a>
-                            </li>
-                            <li>
-                                <a href="">پرفروش ترین ها </a>
-                            </li>
-                            <li>
-                                <a href="">تخفیف ها و پیشنهاد ها </a>
-                            </li>
-                            <li>
-                                <a href="">شگفت انگیز ها</a>
-                            </li>
-                            <li>
-                                <a href="">سوالی دارید؟</a>
-                            </li>
-                            <li>
-                                <a href="">در دیجی کالا بفروشید </a>
-                            </li>
-
-                        </ul>
-                    </nav>
-
-                </Row>
-            </Container >
-
-
-            {/* <!-- Top Menu --> */}
+            {/* {/* <!-- Top Header --> */}
+               
 
         </div >
     );

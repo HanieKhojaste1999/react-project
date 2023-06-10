@@ -1,12 +1,11 @@
 import React from 'react';
 import 'bootstrap/dist/css/bootstrap.rtl.min.css';
-import Header from './components/Index/Header/Header'
-import CartModule from './components/Index/Header/CartModule';
+import Navbar from './components/Index/Header/Navbar/Navbar';
 const App = () => {
 
   return (
     <div>
-      <CartModule />
+      <Navbar />
     </div>
   );
 };
