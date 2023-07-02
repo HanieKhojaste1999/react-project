@@ -122,7 +122,7 @@ const Footer = () => {
             <Row className="mt-5 mb-2 d-flex justify-content-center align-items-center">
 
                 {subBrands.map((subBrand, id) => {
-                    return <Col key={subBrand.id} lg={2} md={3} sm={4} className={styles.footerBrandItem}><img src={subBrand.image} alt="" /></Col>
+                    return <Col key={subBrand.id} lg={2} md={3} sm={4} className={styles.footerBrandItem}><img src={subBrand.image} alt="brands" /></Col>
                 })}
 
             </Row >

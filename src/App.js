@@ -1,11 +1,15 @@
 import React from 'react';
 import 'bootstrap/dist/css/bootstrap.rtl.min.css';
-import Navbar from './components/Index/Header/Navbar/Navbar';
+import Header from './components/Index/Header/Header';
+import MainContainer from './components/Index/Main/MainContainer';
+import Footer from './components/Index/Footer/Footer';
 const App = () => {
 
   return (
     <div>
-      <Navbar />
+      <Header />
+      <MainContainer/>
+      <Footer/>
     </div>
   );
 };

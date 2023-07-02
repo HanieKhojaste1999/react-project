@@ -1,9 +1,21 @@
-/* @font-face {
+@font-face {
     font-family: 'Vazir';
-    src: url('font/vazir-font-v30.1.0/Farsi-Digits/Vazir-Regular-FD.eot') format('eot');
-    src: url('font/vazir-font-v30.1.0/Farsi-Digits/Vazir-Regular-FD.ttf') format('ttf');
-    src: url('FONT/vazir-font-v30.1.0/Farsi-Digits/Vazir-Regular-FD.woff') format('woff');
-} */
+    src: url('./../font/Farsi-Digits/Vazir-Regular-FD.eot') format('eot');
+    src: url('./../font/Farsi-Digits/Vazir-Regular-FD.ttf') format('ttf');
+    src: url('./../font/Farsi-Digits/Vazir-Regular-FD.woff') format('woff');
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #919191;
+}
 
 :root {
     --mainLight: rgb(255, 255, 255);
@@ -18,51 +30,35 @@ body {
     font-family: Vazir;
 }
 
+.TopAD img{
+    padding: 0px;
+}
+
 .topHeaderContainer {
+    
+    padding: 5px;
     margin: 10px 0px;
     background-color: var(--mainLight);
 }
 
-.topHeaderContainer i {
-    color: var(--mainDarkGray);
+.Icons{
+    color: #656565;
+    font-size:x-large;
 }
 
-.logo img {
-    width: 100%;
+.logo{
+    display: flex;
+    align-items: center;
 }
 
 .loginRegister {
     display: flex;
     justify-content: flex-end;
-
 }
 
-.searchInput {
+.SearchInput {
     background-color: var(--mainlightGray);
     border: none;
-    border-radius: 10px;
-    padding: 0px 20px;
-
-}
-
-.topMenuBar {
-    background-color: var(--mainLight);
-}
-
-.menuBarItems {
-    display: flex;
-    justify-content: flex-start;
-    font-size: small;
-}
-
-.menuBarItems li {
-    list-style: none;
-    margin-left: 20px;
-}
-
-.menuBarItems a {
-    text-decoration: none;
-    color: black;
 }
 
 .servicesItem img {
