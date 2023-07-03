@@ -10,7 +10,7 @@ const Ul = styled.ul`
   }
   @media (max-width: 768px) {
     flex-flow: column nowrap;
-    background-color: #cb1717;
+    background-color: #ffffff;
     position: fixed;
     transform: ${({ open }) => open ? 'translateX(0)' : 'translateX(100%)'};
     top: 0;
@@ -18,9 +18,10 @@ const Ul = styled.ul`
     height: 100vh;
     width: 300px;
     padding-top: 3.5rem;
+    z-index: 90;
     transition: transform 0.3s ease-in-out;
     li {
-      color: #fff;
+      color: #030303;
     }
   }
 `;
