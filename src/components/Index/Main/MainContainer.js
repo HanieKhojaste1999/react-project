@@ -1,7 +1,7 @@
 import React from 'react';
 import Slider from './Slider';
 import Services from './Services';
-// import SalesSwipper from './SalesSwipper';
+import SalesSwipper from './SalesSwipper';
 import SuperMarketOffer from './SuperMarketOffer';
 import OfferBanner from './OfferBanner';
 import CategoryWithIcon from './CategoryWithIcon';
@@ -11,7 +11,7 @@ const MainContainer = () => {
         <>
             <Slider/>
             <Services/>
-            {/* <SalesSwipper/> */}
+            <SalesSwipper/>
             <SuperMarketOffer/>
             <OfferBanner/>
             <CategoryWithIcon/>

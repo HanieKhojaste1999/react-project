@@ -6,8 +6,8 @@ const OfferBanner = () => {
     return (
         <div>
             {/* <!-- offer Banner --> */}
-            <Container fluid>
-                <Row className="d-flex justify-content-center align-items-center">
+            <Container>
+                <Row>
                     <Col lg={3} sm={6} className={styles.offerBannerItem}>
                         <img src="https://dkstatics-public.digikala.com/digikala-adservice-banners/3056952e59f2e85aa1cad27d79b2f7b060d20bb0_1675849450.jpg?x-oss-process=image/quality,q_95/format,webp" alt="" />
                     </Col>

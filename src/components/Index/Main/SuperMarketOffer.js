@@ -6,7 +6,7 @@ const SuperMarketOffer = () => {
     return (
         <div>
             {/* <!-- superMarket offer --> */}
-            <Container fluid>
+            <Container>
                 <Row className=" d-flex justify-content-center">
                     <Row className={styles.superMarketOffer}>
                         <Col lg={6} className={styles.superMarketOfferItem}>

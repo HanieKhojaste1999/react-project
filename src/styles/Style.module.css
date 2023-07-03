@@ -19,7 +19,7 @@
 
 :root {
     --mainLight: rgb(255, 255, 255);
-    --mainRed: #db2727;
+    --mainRed: #dd3b3b;
     --mainlightGray: #eaeaea;
     --mainXlightGray: #f0f0f0;
     --mainDarkGray: #656565;
@@ -73,11 +73,13 @@ body {
 
 .servicesItem h6 {
     font-size: x-small;
+    margin-top: 10px;
 }
 
 .moreServices {
     display: flex;
     justify-content: center;
+    align-items: center;
     height: 50px;
     width: 50px;
     border-radius: 50%;
@@ -243,6 +245,15 @@ body {
     justify-content: space-around;
     align-items: center;
     padding: 10px;
+}
+
+.salesSwipperIcons{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.salesSwipperIcons img{
+    width: 40%;
 }
 
 .swiper {

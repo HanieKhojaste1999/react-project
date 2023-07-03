@@ -12,14 +12,14 @@ const SalesSwipper = () => {
     const [salesSwipperItems] = useState([
         {
             id: 1,
-            name: 'ادو پرفیوم زنانه نیفتی مدل لالیک لامور   ',
+            name: 'ادو پرفیوم زنانه نیفتی مدل لالیک    ',
             price: 200000,
             description: 'لامور با بوی شیرین و ملایمش که به خنکی نزدیک است، شادی وصف ناپذیری برای دوست داران این عطر به ارمغان می آورد.پس از اسپری‌کردن این عطر روی پوست و محل نبضتان، بوی شکوفه‌ی پرتقال، نارنج و گل رز را احساس خواهید کرد. این ترکیب شیرین، طراوت و تازگی را به روح شما تزریق خواهد کرد. پس از مدتی، نت‌های میانی از راه رسیده و جای نت‌های آغازی را می‌گیرند. این نت‌ها از گل یاسمین، مریم و گاردنیا ساخته ‌شده‌اند.',
             image: 'https://dkstatics-public.digikala.com/digikala-products/c2b4d40585fb25175ae169d9f982522d6192468a_1644613257.jpg?x-oss-process=image/resize,m_lfit,h_300,w_300/format,webp/quality,q_80'
         },
         {
             id: 2,
-            name: 'ژل صورت سودا مدل لیفتینگ آلوئه ورا',
+            name: 'ژل صورت سودا مدل لیفتینگ  ',
             price: 50000,
             description: '',
             image: 'https://dkstatics-public.digikala.com/digikala-products/2285030.jpg?x-oss-process=image/resize,m_lfit,h_300,w_300/format,webp/quality,q_80'
@@ -56,10 +56,10 @@ const SalesSwipper = () => {
     return (
         <div>
             {/* <!-- sales swipper --> */}
-            <Container fluid>
+            <Container>
                 <Row className="d-flex justify-content-center align-items-center">
                     <div className={styles.salesSwipper}>
-                        <div>
+                        <div className={styles.salesSwipperIcons}>
                             <img src="https://www.digikala.com/statics/img/svg/specialCarousel/FeaturedPromos.svg" alt="" />
                             <img src="https://www.digikala.com/statics/img/png/specialCarousel/box.png" alt="" />
                         </div>
@@ -83,7 +83,7 @@ const SalesSwipper = () => {
                                 slidesPerView: 2,
                             },
 
-                        }} spaceBetween={30} centeredSlides={true} pagination={{ clickable: true }} modules={[Scrollbar]} className={styles.swiper}>
+                        }} spaceBetween={10}  pagination={{ clickable: true }} modules={[Scrollbar]} className={styles.swiper}>
                             {salesSwipperItems.map((salesSwipperItems) => {
                                 return <SwiperSlide className={styles.swiperSlide}>
                                     <Card className={styles.swipperItem}>
