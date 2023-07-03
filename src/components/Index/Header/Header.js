@@ -15,7 +15,7 @@ const Header = () => {
             </Row>
             {/* Top Ad */}
             {/* Top Header */}
-            <Row fluid className={styles.topHeaderContainer}>
+            <Row className={styles.topHeaderContainer}>
                 <Col lg={2} md={2} sm={12} xs={12} className="d-flex justify-content-lg-start justify-content-md-start justify-content-sm-center justify-content-center">
                     <section className={styles.logo}>
                         <img src="https://www.digikala.com/statics/img/svg/logo.svg" alt="logo" />

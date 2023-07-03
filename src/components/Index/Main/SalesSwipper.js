@@ -54,8 +54,6 @@ const SalesSwipper = () => {
         }
     ]);
     return (
-        <div>
-            {/* <!-- sales swipper --> */}
             <Container>
                 <Row className="d-flex justify-content-center align-items-center">
                     <div className={styles.salesSwipper}>
@@ -84,8 +82,8 @@ const SalesSwipper = () => {
                             },
 
                         }} spaceBetween={10}  pagination={{ clickable: true }} modules={[Scrollbar]} className={styles.swiper}>
-                            {salesSwipperItems.map((salesSwipperItems) => {
-                                return <SwiperSlide className={styles.swiperSlide}>
+                            {salesSwipperItems.map((salesSwipperItems,id) => {
+                                return <SwiperSlide className={styles.swiperSlide} key={salesSwipperItems.id}>
                                     <Card className={styles.swipperItem}>
                                         <Card.Img variant="top" src={salesSwipperItems.image} />
                                         <Card.Body>
@@ -107,8 +105,7 @@ const SalesSwipper = () => {
                     </div>
                 </Row>
             </Container>
-            {/* <!-- sales swipper --> */}
-        </div>
+         
     );
 };
 
