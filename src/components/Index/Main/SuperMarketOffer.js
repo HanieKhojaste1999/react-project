@@ -9,10 +9,10 @@ const SuperMarketOffer = () => {
             <Container>
                 <Row className=" d-flex justify-content-center">
                     <Row className={styles.superMarketOffer}>
-                        <Col lg={6} className={styles.superMarketOfferItem}>
-                            <img src="https://www.digikala.com/statics/img/png/amazing/fresh.png" alt="" />
-                            <h4 className={styles.superMarketOfferTxt}>شگفت انگیز سوپرمارکتی</h4>
-                            <div className={styles.superMarketOfferPill}> تا %38 تخفیف</div>
+                        <Col lg={6} className={styles.superMarketOfferTitle}>
+                            <img className='mx-2' src="https://www.digikala.com/statics/img/png/amazing/fresh.png" alt="" />
+                            <img className='mx-2' src="https://www.digikala.com/statics/img/svg/typography/fresh.svg" alt="" />
+                            <div className={`${styles.superMarketOfferPill} mx-2`}> تا %38 تخفیف</div>
                         </Col>
                         <Col lg={6} className={styles.superMarketOfferItem}>
                             <img className={styles.seperMarketOfferRoundedImg} src="https://dkstatics-public.digikala.com/digikala-products/a95a06797f4da05baa353a67b3831a92c49b0172_1662451670.jpg?x-oss-process=image/resize,m_lfit,h_300,w_300/format,webp/quality,q_80" alt="" />

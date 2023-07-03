@@ -4,10 +4,9 @@ import { Container, Row, Col } from 'react-bootstrap';
 
 const OfferPoster = () => {
     return (
-        <div>
-            {/* <!-- offer poster --> */}
-            <Container fluid>
-                <Row className="d-flex justify-content-center">
+      
+            <Container className={styles.offerPosterContainer}>
+                <Row className="d-flex justify-content-around">
                     <Col lg={6} sm={12} className={styles.offerPoster}>
                         <img src="https://dkstatics-public.digikala.com/digikala-adservice-banners/9f69814c7ea1b61ab462e652d52f12bd3ae8675e_1682762711.jpg?x-oss-process=image/quality,q_95/format,webp" alt="" />
                     </Col>
@@ -16,9 +15,7 @@ const OfferPoster = () => {
                     </Col>
                 </Row>
             </Container >
-            {/* <!-- offer poster --> */}
-
-        </div >
+          
     );
 };
 

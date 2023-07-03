@@ -4,9 +4,7 @@ import { Container, Row, Col } from 'react-bootstrap';
 
 const OfferBanner = () => {
     return (
-        <div>
-            {/* <!-- offer Banner --> */}
-            <Container>
+            <Container className={styles.offerBannerContainer}>
                 <Row>
                     <Col lg={3} sm={6} className={styles.offerBannerItem}>
                         <img src="https://dkstatics-public.digikala.com/digikala-adservice-banners/3056952e59f2e85aa1cad27d79b2f7b060d20bb0_1675849450.jpg?x-oss-process=image/quality,q_95/format,webp" alt="" />
@@ -22,8 +20,6 @@ const OfferBanner = () => {
                     </Col >
                 </Row >
             </Container >
-            {/* <!-- offer Banner --> */}
-        </div >
     );
 };
 

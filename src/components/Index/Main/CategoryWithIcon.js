@@ -4,11 +4,10 @@ import { Container, Row, Col } from 'react-bootstrap';
 
 const CategoryWithIcon = () => {
     return (
-        <div>
-            {/* <!-- category with icon --> */}
-            <Container fluid>
+       
+            <Container className={styles.categoryContainer}>
                 <Row className="text-center">
-                    <h5>دسته بندی های دیجی کالا</h5>
+                    <b>دسته بندی های دیجی کالا</b>
                 </Row>
                 <Row className="d-flex justify-content-center align-items-center">
                     <Col lg={2} sm={4} className={styles.categoryWithIconItem}>
@@ -57,8 +56,6 @@ const CategoryWithIcon = () => {
                     </Col >
                 </Row >
             </Container >
-            {/* <!-- category with icon --> */}
-        </div >
     );
 };
 
