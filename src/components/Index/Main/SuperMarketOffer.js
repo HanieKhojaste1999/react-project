@@ -4,10 +4,8 @@ import { Container, Row, Col } from 'react-bootstrap';
 
 const SuperMarketOffer = () => {
     return (
-        <div>
-            {/* <!-- superMarket offer --> */}
             <Container>
-                <Row className=" d-flex justify-content-center">
+                <Row className="d-flex justify-content-center">
                     <Row className={styles.superMarketOffer}>
                         <Col lg={6} className={styles.superMarketOfferTitle}>
                             <img className='mx-2' src="https://www.digikala.com/statics/img/png/amazing/fresh.png" alt="" />
@@ -26,8 +24,7 @@ const SuperMarketOffer = () => {
                     </Row>
                 </Row>
             </Container>
-            {/* <!-- superMarket offer --> */}
-        </div>
+
     );
 };
 

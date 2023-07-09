@@ -30,23 +30,23 @@ body {
     font-family: Vazir;
 }
 
-.TopAD img{
+.TopAD img {
     padding: 0px;
 }
 
 .topHeaderContainer {
-    
+
     padding: 5px;
     margin: 10px 0px;
     background-color: var(--mainLight);
 }
 
-.Icons{
+.Icons {
     color: #656565;
-    font-size:x-large;
+    font-size: x-large;
 }
 
-.logo{
+.logo {
     display: flex;
     align-items: center;
 }
@@ -97,11 +97,11 @@ body {
 
 .superMarketOfferItem {
     display: flex;
-    justify-content:space-around;
+    justify-content: space-around;
     align-items: center;
 }
 
-.superMarketOfferTitle{
+.superMarketOfferTitle {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -127,13 +127,13 @@ body {
     align-items: center;
 }
 
-.offerBannerContainer{
+.offerBannerContainer {
     margin-top: 20px;
 }
 
 .offerBannerItem {
     display: flex;
-    justify-content:center;
+    justify-content: center;
     align-items: center;
     padding: 0px;
 }
@@ -141,8 +141,8 @@ body {
 .offerBannerItem img {
     width: 100%;
     border-radius: 20px;
-   padding: 5px;
- 
+    padding: 5px;
+
 }
 
 .footerBrandItem {
@@ -152,12 +152,14 @@ body {
     padding-top: 3px;
 }
 
-.categoryContainer{
+.categoryContainer {
     margin-top: 30px;
 }
-.categoryContainer b{
+
+.categoryContainer b {
     font-size: large;
 }
+
 .categoryWithIconItem img {
     width: 70%;
 }
@@ -169,9 +171,11 @@ body {
     align-items: center;
     text-align: center;
 }
-.offerPosterContainer{
+
+.offerPosterContainer {
     margin-top: 20px;
 }
+
 .offerPoster {
     display: flex;
     justify-content: center;
@@ -261,12 +265,13 @@ body {
     padding: 10px;
 }
 
-.salesSwipperIcons{
+.salesSwipperIcons {
     display: flex;
     flex-direction: column;
     align-items: center;
 }
-.salesSwipperIcons img{
+
+.salesSwipperIcons img {
     width: 40%;
 }
 
@@ -279,4 +284,45 @@ body {
 .swiperSlide {
     text-align: center;
     background: #fff;
+}
+
+.digiClub {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #098191;
+    border-radius: 20px;
+    padding: 10px;
+    margin-top: 10px;
+}
+
+.digiClubPoint{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.digiClubOptions{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.digiClubOptions div{
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    margin-left: 5px;
+    padding:2px;
+}
+
+.digiClubOptions b{
+    font-size: small;
+}
+
+.digiClubOptions img{
+    width: 7rem;
 }

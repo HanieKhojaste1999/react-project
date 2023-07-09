@@ -1,11 +1,10 @@
 import React from 'react';
 import styles from './../../../styles/Style.module.css';
 import { Container, Row, Col } from 'react-bootstrap';
-import { useState } from 'react';
 
 
 const Footer = () => {
-    const [subBrands, setsubBrands] = useState([
+    var subBrands=([
         { id: 1, name: 'digimehr', image: "https://www.digikala.com/statics/img/svg/footer/digiMehr.svg" },
         { id: 2, name: 'magnet', image: 'https://www.digikala.com/statics/img/svg/footer/magnet.svg' },
         { id: 3, name: 'jet', image: 'https://www.digikala.com/statics/img/svg/footer/digiclub.svg' },

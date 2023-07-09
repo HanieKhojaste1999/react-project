@@ -6,16 +6,18 @@ import SuperMarketOffer from './SuperMarketOffer';
 import OfferBanner from './OfferBanner';
 import CategoryWithIcon from './CategoryWithIcon';
 import OfferPoster from './OfferPoster';
+import DigiClub from './DigiClub';
 const MainContainer = () => {
     return (
         <>
-            <Slider/>
-            <Services/>
-            <SalesSwipper/>
-            <SuperMarketOffer/>
-            <OfferBanner/>
-            <CategoryWithIcon/>
-            <OfferPoster/>
+            <Slider />
+            <Services />
+            <SalesSwipper />
+            <SuperMarketOffer />
+            <OfferBanner />
+            <CategoryWithIcon />
+            <OfferPoster />
+            <DigiClub />
         </>
     );
 };
