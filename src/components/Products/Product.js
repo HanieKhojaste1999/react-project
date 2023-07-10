@@ -2,6 +2,7 @@ import React from 'react';
 import Header from './../Index/Header/Header.js';
 import { Container , Breadcrumb , Row , Col } from 'react-bootstrap';
 import styles from './../../styles/Style.module.css';
+import Footer from './../Index/Footer/Footer.js'
 
 const Product = () => {
     return (
@@ -127,6 +128,7 @@ const Product = () => {
                 </Row>
             </Container>
             {/* <!-- product --> */}
+            <Footer/>
         </div>
     );
 };

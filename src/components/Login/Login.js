@@ -3,8 +3,10 @@ import styles from './../../styles/Style.module.css';
 import { Row, Button, Spinner } from 'react-bootstrap';
 import { useState, useEffect } from 'react';
 import LoginGreeting from './LoginGreeting';
+import useFetch from './../../hooks/useFetch';
 
 const Login = () => {
+    const [users] = useFetch('https://jsonplaceholder.typicode.com/users');
     const [loginStatus, setloginStatus] = useState(false);
     const [showGreeting, setshowGreeting] = useState(false);
     useEffect(() => {
@@ -13,8 +15,11 @@ const Login = () => {
             setshowGreeting(true);
         }, 6000)
     }, [loginStatus])
+
+    
     return (
         <div>
+          
             {showGreeting && <LoginGreeting setshowGreeting={setshowGreeting} />}
             <div className={styles.loginMainContainer}>
 
