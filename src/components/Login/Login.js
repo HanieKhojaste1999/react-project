@@ -2,25 +2,14 @@ import React from 'react';
 import styles from './../../styles/Style.module.css';
 import { Row, Button, Spinner } from 'react-bootstrap';
 import { useState, useEffect } from 'react';
-import LoginGreeting from './LoginGreeting';
 import useFetch from './../../hooks/useFetch';
 
 const Login = () => {
     const [users] = useFetch('https://jsonplaceholder.typicode.com/users');
-    const [loginStatus, setloginStatus] = useState(false);
-    const [showGreeting, setshowGreeting] = useState(false);
-    useEffect(() => {
-        setTimeout(() => {
-            setloginStatus(false);
-            setshowGreeting(true);
-        }, 6000)
-    }, [loginStatus])
-
     
     return (
         <div>
           
-            {showGreeting && <LoginGreeting setshowGreeting={setshowGreeting} />}
             <div className={styles.loginMainContainer}>
 
                 <div className={styles.loginContainer}>
@@ -39,7 +28,7 @@ const Login = () => {
                         <input className="form-control" type="text" />
                     </Row>
                     <Row className="mt-4">
-                        <Button disabled={loginStatus && true} onClick={() => setloginStatus(true)} variant="danger">{loginStatus ? <Spinner animation="border" variant="light" /> : 'ورود'}</Button>
+                        <Button variant="danger">ورود</Button>
                     </Row>
                     <Row className="mt-2">
                         <p className={styles.logoTermOfServiceText}>ورود شما به معنای پذیرش شرایط آنلاین شاپ و قوانین حریم‌ خصوصی است</p>
