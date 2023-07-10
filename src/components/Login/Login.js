@@ -1,7 +1,6 @@
 import React from 'react';
 import styles from './../../styles/Style.module.css';
-import { Row, Button, Spinner } from 'react-bootstrap';
-import { useState, useEffect } from 'react';
+import { Row, Button } from 'react-bootstrap';
 import useFetch from './../../hooks/useFetch';
 
 const Login = () => {
