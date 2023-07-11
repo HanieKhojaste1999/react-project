@@ -7,6 +7,7 @@ import OfferBanner from './OfferBanner';
 import CategoryWithIcon from './CategoryWithIcon';
 import OfferPoster from './OfferPoster';
 import DigiClub from './DigiClub';
+import MainArticles from './MainArticles';
 const MainContainer = () => {
     return (
         <>
@@ -18,6 +19,7 @@ const MainContainer = () => {
             <CategoryWithIcon />
             <OfferPoster />
             <DigiClub />
+            <MainArticles/>
         </>
     );
 };

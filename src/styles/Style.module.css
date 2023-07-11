@@ -4,26 +4,28 @@
     src: url('./../font/Farsi-Digits/Vazir-Regular-FD.ttf') format('ttf');
     src: url('./../font/Farsi-Digits/Vazir-Regular-FD.woff') format('woff');
 }
+:root {
+    --mainLight: #ffff;
+    --mainRed: #dd3b3b;
+    --mainlightGray: #eaeaea;
+    --mainXlightGray: #f0f0f0;
+    --mainDarkGray: #656565;
+    --mainFooterGray: #292a33;
+    --mainGreen: #07a845;
+    --mainPurple: #8d0fa6;
+    --mainDarkBlue: #098191;
+}
 
 ::-webkit-scrollbar {
     width: 10px;
 }
 
 ::-webkit-scrollbar-track {
-    background: #f1f1f1;
+    background: var(--mainXlightGray);
 }
 
 ::-webkit-scrollbar-thumb {
-    background: #919191;
-}
-
-:root {
-    --mainLight: rgb(255, 255, 255);
-    --mainRed: #dd3b3b;
-    --mainlightGray: #eaeaea;
-    --mainXlightGray: #f0f0f0;
-    --mainDarkGray: #656565;
-    --mainFooterGray: #292a33;
+    background: var(--mainDarkGray)
 }
 
 body {
@@ -35,7 +37,6 @@ body {
 }
 
 .topHeaderContainer {
-
     padding: 5px;
     margin: 10px 0px;
     background-color: var(--mainLight);
@@ -110,8 +111,8 @@ body {
 .superMarketOfferPill {
 
     font-size: small;
-    background-color: #07a845;
-    color: white;
+    background-color: var(--mainGreen);
+    color: var(--mainLight);
     padding: 5px 10px;
     border-radius: 20px;
 }
@@ -252,7 +253,7 @@ body {
 
 .purpuleCaption {
     font-size: x-small;
-    color: #8d0fa6;
+    color: var(--mainPurple);
 }
 
 .salesSwipper {
@@ -283,46 +284,55 @@ body {
 
 .swiperSlide {
     text-align: center;
-    background: #fff;
+    background: var(--mainLight);
 }
 
 .digiClub {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #098191;
+    background-color: var(--mainDarkBlue);
     border-radius: 20px;
     padding: 10px;
     margin-top: 10px;
 }
 
-.digiClubPoint{
+.digiClubPoint {
     display: flex;
     justify-content: center;
     align-items: center;
-    color: white;
+    color: var(--mainLight);
 }
 
-.digiClubOptions{
+.digiClubOptions {
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.digiClubOptions div{
+.digiClubOptions div {
     width: 50%;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: white;
+    background-color: var(--mainLight);
     margin-left: 5px;
-    padding:2px;
+    padding: 2px;
 }
 
-.digiClubOptions b{
+.digiClubOptions b {
     font-size: small;
 }
 
-.digiClubOptions img{
+.digiClubOptions img {
     width: 7rem;
+}
+
+.mainArticles{
+    margin-top: 30px;
+}
+.mainArticles a{
+    text-decoration: none;
+    color: rgb(23, 179, 179);
+    font-size: small;
 }
