@@ -69,12 +69,14 @@ body {
 }
 
 .servicesItem {
-    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     padding: 30px;
 }
 
 .servicesItem h6 {
-    font-size: x-small;
+    font-size: small;
     margin-top: 10px;
 }
 

@@ -1,6 +1,6 @@
 import React from 'react';
 import styles from './../../../styles/Style.module.css';
-import { Container , Row , Col } from 'react-bootstrap';
+import { Container, Row, Col } from 'react-bootstrap';
 
 const Services = () => {
     return (
@@ -40,7 +40,7 @@ const Services = () => {
                         <div className={styles.moreServices}>
                             <h2>...</h2>
                         </div>
-                        <h6>بیشتر</h6>
+                            <h6>بیشتر</h6>
                     </Col>
                 </Row>
             </Container>
