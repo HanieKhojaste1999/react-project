@@ -4,6 +4,7 @@
     src: url('./../font/Farsi-Digits/Vazir-Regular-FD.ttf') format('ttf');
     src: url('./../font/Farsi-Digits/Vazir-Regular-FD.woff') format('woff');
 }
+
 :root {
     --mainLight: #ffff;
     --mainRed: #dd3b3b;
@@ -102,19 +103,21 @@ body {
     align-items: center;
 }
 
-.superMarketOfferTitle {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
 .superMarketOfferPill {
-
     font-size: small;
     background-color: var(--mainGreen);
     color: var(--mainLight);
     padding: 5px 10px;
     border-radius: 20px;
+}
+
+.superMarketOfferTitle{
+    display: flex;
+    align-items: center;
+}
+
+.superMarketOfferTypography{
+    width: 100%;
 }
 
 .seperMarketOfferRoundedImg {
@@ -304,12 +307,6 @@ body {
     color: var(--mainLight);
 }
 
-.digiClubOptions {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
 .digiClubOptions div {
     width: 50%;
     display: flex;
@@ -318,6 +315,7 @@ body {
     background-color: var(--mainLight);
     margin-left: 5px;
     padding: 2px;
+    margin-top: 5px;
 }
 
 .digiClubOptions b {
@@ -328,10 +326,11 @@ body {
     width: 7rem;
 }
 
-.mainArticles{
+.mainArticles {
     margin-top: 30px;
 }
-.mainArticles a{
+
+.mainArticles a {
     text-decoration: none;
     color: rgb(23, 179, 179);
     font-size: small;
