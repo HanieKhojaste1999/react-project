@@ -63,6 +63,11 @@ body {
     border: none;
 }
 
+.slider{
+    height: 60vh;
+    width: 100vw;
+}
+
 .servicesItem img {
     height: 50px;
     width: 50px;
